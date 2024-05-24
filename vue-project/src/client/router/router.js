@@ -1,15 +1,15 @@
 import { createMemoryHistory, createRouter } from 'vue-router'
-import HelloWorld from "@/components/V-if.vue";
-import Component1 from "@/components/Component1.vue";
-import ComponentePadre from '@/components/ComponentePadre.vue';
-import ComponenteHijo from '@/components/ComponenteHijo.vue';
-import Bienvenida from '@/components/Bienvenida.vue';
-import VBind from '@/components/V-bind.vue';
-import VFor from '@/components/V-for.vue';
-import VIf from '@/components/V-if.vue';
-import VModel from '@/components/V-model.vue';
-import VOn from '@/components/V-on.vue';
-import VShow from '@/components/V-show.vue';
+import HelloWorld from "@/client/components/V-if.vue";
+import Component1 from "@/client/components/Component1.vue";
+import ComponentePadre from '@/client/components/ComponentePadre.vue';
+import ComponenteHijo from '@/client/components/ComponenteHijo.vue';
+import Bienvenida from '@/client/components/Bienvenida.vue';
+import VBind from '@/client/components/V-bind.vue';
+import VFor from '@/client/components/V-for.vue';
+import VIf from '@/client/components/V-if.vue';
+import VModel from '@/client/components/V-model.vue';
+import VOn from '@/client/components/V-on.vue';
+import VShow from '@/client/components/V-show.vue';
 
 const routes = [
 { path: '/', component: HelloWorld },

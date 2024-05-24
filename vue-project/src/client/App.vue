@@ -1,5 +1,5 @@
 <script setup>
-import ComponentePadre from './components/ComponentePadre.vue';
+import ComponentePadre from '../client/components/ComponentePadre.vue';
 
 </script>
 
